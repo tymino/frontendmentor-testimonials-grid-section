@@ -16,10 +16,5 @@
 
 .prettierignore
 
-
-
-#develop
-design
-README-template.md
-README.md
-style-guide.md
+#product
+/dist
