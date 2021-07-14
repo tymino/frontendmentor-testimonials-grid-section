@@ -42,9 +42,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 255px);
   grid-template-rows: 282px 266px;
-  height: 572px;
   gap: 24px;
-
 }
 
 .commit {
@@ -119,8 +117,6 @@ body {
   background-color: var(--white);
 }
 
-
-
 .attribution {
   position: absolute;
   bottom: 8px;
@@ -140,7 +136,6 @@ body {
     grid-template-columns: repeat(2, 255px);
     grid-template-rows: 282px 282px 266px 266px;
     gap: 24px;
-    height: 1168px;
     margin-top: 360px;
   }
   .commit--daniel {
@@ -165,7 +160,46 @@ body {
   }
 
   .attribution {
-    bottom: -340px;
+    bottom: -380px;
     right: 16px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    grid-template-columns: 323px;
+    grid-template-rows: 412px 238px 218px 372px 410px;
+    gap: 24px;
+    margin-top: 940px;
+  }
+  .commit__quotation {
+    right: 20px;
+  }
+  .commit--daniel {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .commit--jonathan {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .commit--jeanette {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .commit--patrick {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  .commit--kira {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  .attribution {
+    bottom: -954px;
+    right: 31%;
+    padding-bottom: 8px;
   }
 }
