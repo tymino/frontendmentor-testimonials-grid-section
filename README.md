@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com](https://github.com/tymino/testimonials-grid-section)
 - Live Site URL: [surge.sh](https://tymino-testimonials-grid-section.surge.sh)
 
 ## My process
